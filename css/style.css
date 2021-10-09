@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+body{
+    font-family: 'Poppins', arial, helvetica;
+    font-size: 1em;
+}
+
+.btn{
+    text-transform: uppercase;
+}
+
+.header{
+    /* background-image: linear-gradient(rgb(35, 81, 119), rgba(255, 255, 255, 0)), url(../img/bg-image.jpg); */
+    background-color: #87c2ce;
+    width: 100%;
+    height: 100px;
+    color: white;
+   
+
+}
+
+.main-nav{
+    display: flex;
+    /* height: 70px;    */
+}
+
+.logo{
+    font-size: 2em;
+}
+
+.logo > a{
+    font-family: 'Ephesis';
+    font-size: 2em;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-transform: uppercase;
+    
+}
+
+a{
+    text-decoration: none;
+
+}
+
+a:link{ 
+    color: white
+}
+
+.header-content{
+    background-color: #87c2ce;
+    
+}
+
+.sub-head{
+    width: 100%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* margin: 0 auto; */
+   
+}
+
+.header-all{
+    flex: 50%;
+    color: #274472;
+    /* background-color: #7797b6; */
+}
+
+.header-par > h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.header-par > p{
+    font-size: 15px;
+}
+
+.intro{
+    width: 100%;
+    height: 60vh;
+}
+
+/* HOVER EFFECT */
+
+.hovereffect {
+    background-color:#5885AF;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px; /* 3D effect */
+  }
+
+  .hover1{
+      position: relative;
+      height: 100%;
+      width: 100%;
+      transition: transform .8s;
+      transform-style: preserve-3d;
+  }
+
+  .hovereffect:hover .hover1{
+      transform: rotateY(180deg);
+  }
+
+  .hover-front, .hover-back{
+      position: absolute;
+      backface-visibility: hidden;
+      width: 100%;
+      height: 100%;
+  }
+
+  .hover-front{
+      color: yellow;
+  }
+
+  .hover-back{
+      background-color: #5885AF;
+      color: white;
+      transform: rotateY(180deg)
+  }
+
+  /* HOVER */
+
+  .white{
+      background-color:#fff;
+  }
+
+  .hover-main{
+      background-color: #BFD7ED
+  }
+
+  /* ABOUT */
+
+  .about-main{
+      border-left: 7px solid #274472;
+  }
+
+  .about-sub{
+      height: 400px;
+  }
+
+  .fas{
+      color: #5885AF;
+      padding-bottom: 10px;
+  }
+
+
